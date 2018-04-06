@@ -2,6 +2,8 @@
 
 #SVM
 
+set.seed(123)
+
 #Model Execution
 svm_model <- svm(y~., data=new_train, kernel="radial",  probability=TRUE)
 
