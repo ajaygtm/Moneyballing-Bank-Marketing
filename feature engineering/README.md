@@ -1,7 +1,7 @@
 
 ## Feature Binning
 
- ‘Age’ variable is binned into 4 buckets.
+ **Age** variable is binned into 4 buckets.
  1. Teens
  2. Teen Adults
  3. Adults
@@ -19,11 +19,12 @@ This variable is **removed** even though it was a strong predictor based on the 
 This variable is **removed** because it has constant value and also the given test dataset doesn’t have that attribute. So, it won’t be helpful in predicting.
 
 
+
 The remaining attributes are properly transformed and then taken into account for modelling.
 
 
 ### Note: 
-Complete R code used for the above feature engineering is provided in this folder.
+Complete **R code** used for the above feature engineering is provided in this folder.
 
 
 
