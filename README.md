@@ -40,7 +40,7 @@ The prediction on the test data using the **Random Forest algorithm** is stored 
 
 
 ### Note
-**R Code** for each step is provided separately in the respective folders along with the README file and also, [**complete R Script**](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/blob/master/complete_code.R) for this whole project is provided for convenience.
+**R Codes** for each of the above steps are provided separately in the respective folders along with the README file and also a [**complete R Script**](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/blob/master/complete_code.R) for this whole project is provided for convenience.
 
 
 
