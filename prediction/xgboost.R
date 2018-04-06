@@ -2,6 +2,8 @@
 
 #XGBOOST
 
+set.seed(123)
+
 #Data Preprocessing
 
 #Using one hot encoding 
