@@ -1,7 +1,7 @@
 
 # Algorithms Used
 
-Four different algorithms are used to predict the term deposit subscription.
+Four different classification algorithms are used in this project to predict the term deposit subscription.
 1.	**Linear algorithm:** Logistic Regression (GLM)
 2. 	**Non-Linear algorithm:** Support Vector Machine (SVM)
 3. 	**Bagging algorithm:** Random Forest (RF)
@@ -12,7 +12,7 @@ Four different algorithms are used to predict the term deposit subscription.
 
 ## Performance Metrics:
 
-Since, the test accuracy is not a very good indicator of model performance in the case of imbalanced dataset. The following metrics were considered in choosing the model.
+The ***test accuracy is not a very good indicator*** of model performance in the case of imbalanced dataset. The following metrics were considered in choosing the model.
 1.	**Confusion Matrix:** A breakdown of predictions into a table showing correct predictions (the diagonal) and the types of incorrect predictions made (what classes incorrect predictions were assigned).
 
 2.	**Precision:** A measure of  a classifiers exactness.
@@ -26,7 +26,7 @@ Since, the test accuracy is not a very good indicator of model performance in th
 
 ## Comparison Table:
 
-The following table shows the performance of models across various metrics
+The following table shows the performance of the chosen models across various metrics
 
 Table             | Logistic | RF | SVM | XGBoost
 -----------       | -----    |----| ----| ------- 
@@ -34,7 +34,7 @@ Table             | Logistic | RF | SVM | XGBoost
 **F1-Score**      | 0.4430 | 0.4723 | 0.4532 | 0.4720
 **Test Accuracy** | 0.8571 | 0.8741 | 0.8669 | 0.8734
 
-It can be seen that **Random Forest** and **XGBoost**  are the best performing algorithms. Even though the difference in the metric values is infinitesimal, we will choose **Random Forest** as the best model for our prediction because it ranks first in 2 out of 3 considered metrics .
+It can be seen that **Random Forest** and **XGBoost**  are the top performing algorithms. Even though the differences in the metric values are infinitesimal, we will choose **Random Forest** as the best model for our prediction because it ranks first in 2 out of our 3 considered metrics .
 
 
 ### Note:
