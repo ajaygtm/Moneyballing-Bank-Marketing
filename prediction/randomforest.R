@@ -2,6 +2,8 @@
 
 #RANDOM FOREST 
 
+set.seed(123)
+
 #Model Execution
 rf_model<-randomForest(y ~.,data = new_train, importance=TRUE, ntree=2000)
 
