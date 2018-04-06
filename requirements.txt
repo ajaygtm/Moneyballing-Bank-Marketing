@@ -1,0 +1,25 @@
+R==3.4.2
+RStudio==1.0.153
+
+R packages and libraries used:
+Hmisc
+moments
+car
+fmsb
+corrplot
+psych
+DMwR
+caret
+ROCR
+randomForest
+e1071
+data.table
+mlr
+xgboost
+parallel
+parallelMap
+VIM
+
+
+
+
