@@ -6,24 +6,24 @@
 
 ## Data Source
 
-The data used for this project is publicly available on UCI Machine Learning repository - [Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing).
+The data used for this project are publicly available on UCI Machine Learning repository - [Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing).
 Further details about the dataset is provided in the README file in the [data folder.](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/data)
 
 ## Analysis
 
-**Data Cleaning** and an extensive **Exploratory Data Analysis** is done on the dataset. The plots and the inferences can be found in the [analysis folder.](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/analysis)
+**Data Cleaning** and **Exploratory Data Analysis** is done on the dataset. The plots and the inferences can be found in the [analysis folder.](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/analysis)
 
 ## Feature Engineering
 
   **Feature Selection** is done to select the best variables for prediction. 
 
   A major problem associated with the given dataset is that it is *imbalanced.* So, **SMOTE** - a Synthetic Data Generation sampling method is used to overcome this problem. 
-  [Feature Engineering folder](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/feature%20engineering) contains the respective code.
+  [Feature Engineering folder](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/feature%20engineering) contains the respective code and explanation.
 
 
 ## Algorithms Used
 
-Four different algorithms are used to predict the term deposit subscription.
+Four different algorithms are used in this project to predict the term deposit subscription.
 1.	**Linear algorithm:** Logistic Regression (GLM)
 2. 	**Non-Linear algorithm:** Support Vector Machine (SVM)
 3. 	**Bagging algorithm:** Random Forest (RF)
@@ -32,7 +32,7 @@ Four different algorithms are used to predict the term deposit subscription.
   The algorithms were assessed using test accuracy, AUC and F1 Score. 
   **Random forest** performed the best among the four algorithms with **87.41% test accuracy, 71.08% AUC and 0.4723 F1 Score**
 
-  R codes for the implementation of all the boave algorithms and the prediction are provided in the [prediction folder.](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/prediction)
+  R codes for the implementation of all the above algorithms and the prediction are provided in the [prediction folder.](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/prediction)
 
 
 ## Result
@@ -41,7 +41,7 @@ The prediction on the test data using the **Random Forest algorithm** is stored 
 
 
 ### Note
-**R Code** for each step is provided separately in the respective folders along with the README file and also, [**complete R Script**](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/blob/master/complete_code.R) for this whole project is also provided for convenience.
+**R Code** for each step is provided separately in the respective folders along with the README file and also, [**complete R Script**](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/blob/master/complete_code.R) for this whole project is provided for convenience.
 
 
 
