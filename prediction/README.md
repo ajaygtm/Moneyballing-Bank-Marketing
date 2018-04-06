@@ -30,11 +30,11 @@ The following table shows the performance of the chosen models across various me
 
 Table             | Logistic | RF | SVM | XGBoost
 -----------       | -----    |----| ----| ------- 
-**AUC**           | 0.7031   | 0.7108| 0.6978| 0.7115
-**F1-Score**      | 0.4430 | 0.4723 | 0.4532 | 0.4720
-**Test Accuracy** | 0.8571 | 0.8741 | 0.8669 | 0.8734
+**AUC**           | 0.7031   | 0.7108| 0.6978| **0.7115**
+**F1-Score**      | 0.4430 | **0.4723** | 0.4532 | 0.4720
+**Test Accuracy** | 0.8571 | **0.8741** | 0.8669 | 0.8734
 
-It can be seen that **Random Forest** and **XGBoost**  are the top performing algorithms. Even though the differences in the metric values are infinitesimal, we will choose **Random Forest** as the best model for our prediction because it ranks first in 2 out of our 3 considered metrics .
+It can be seen that **Random Forest** and **XGBoost**  are the top performing algorithms. Even though the differences in the metric values are infinitesimal, we will choose **Random Forest** as the ***best model*** for our prediction because it ***ranks first in 2 out of the 3 considered metrics .***
 
 
 ### Note:
