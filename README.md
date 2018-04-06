@@ -18,29 +18,19 @@ A major problem associated with the given dataset is that it is *imbalanced.* So
 
 ## Algorithms Used
 
-Four different algorithms are to predict the term deposit subscription.
+Four different algorithms are used to predict the term deposit subscription.
 1.	**Linear algorithm:** Logistic Regression (GLM)
 2. 	**Non-Linear algorithm:** Support Vector Machine (SVM)
 3. 	**Bagging algorithm:** Random Forest (RF)
 4. 	**Boosting algorithm:** eXtreme Gradient Boosting (XGBoost)
 
-## Model Comparision 
+## Algorithm Selected
 
-Since, the test accuracy cannot be used as a sole indicator of the model performance in case of imbalanced dataset, metrics like **AUC**, **F1-Score** and **Confusion Matrix** are used for comparing the models prediction efficiency.
+The algorithms were assessed using test accuracy, AUC and F1 Score.  **Random forest** performed the best among the four algorithms considered with **87.41% test accuracy, 71.08% AUC and 0.4723 F1 Score**
 
-Table             | Logistic | RF | SVM | XGBoost
------------       | -----    |----| ----| ------- 
-**AUC**           | 0.7031   | 0.7108| 0.6978| 0.7115
-**F1-Score**      | 0.4430 | 0.4723 | 0.4532 | 0.4720
-**Test Accuracy** | 0.8571 | 0.8741 | 0.8669 | 0.8734
+## Result
 
-It can be seen that **Random Forest** and **XGBoost**  are the best performing algorithms. Even though the difference in the metrics value is infinitesimal, we will choose **Random Forest** as the best model for our prediction because it ranks first in 2 out of 3 considered metrics .
-
-The predictions for the test data set are stored in the **result.csv** file which is available in the data folder. 
-
-
-
-
+The prediction result on the test data is stored in the **result.csv** file. It is avaiable in the data folder.
 
 
 
