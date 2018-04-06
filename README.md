@@ -36,7 +36,7 @@ Four different algorithms are used in this project to predict the term deposit s
 
 ## Result
 
-The prediction on the test data using the **Random Forest algorithm** is stored in the **result.csv** file.
+The prediction on the test data using the **Random Forest algorithm** is stored in the [**result.csv**](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/blob/master/result.csv) file.
 
 
 ### Note
