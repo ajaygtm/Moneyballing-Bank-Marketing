@@ -3,16 +3,16 @@
 
 ## Missing Values
 
-Due to the data being collected through **phone call interviews,** many clients refused to provide some information. This missing data is not at random so it should be modelled. The missing values are marked as “unknown” in the data set.
+Due to the data being collected through **phone call interviews,** many clients refused to provide some information. This missing data is not at random so it should be modelled. The missing values are marked as **unknown** in the data set.
 
 ![missing_values_plot](https://user-images.githubusercontent.com/16735822/38424599-33d3f3d0-39cf-11e8-908b-036db73fa978.png)
 
 
-In the training dataset, there are 19.5% missing values in default, 4% missing values in education, and so on. We can also look at the histogram from the above figure which clearly depicts the influence of missing values in the attributes. There are no missing values in the test data.
+In the training dataset, there are **19.5%** missing values in **default**, **4%** missing values in **education**, and so on. We can also look at the histogram from the above figure which clearly depicts the influence of missing values in the attributes. There are **no missing values in the test data.**
 
 ## Imputation
 
-There are a number of different methods to handle missing data. Since the attributes with missing values are dichotomous and also categorical with more than two factors, we will use **Multivariate Imputation by Chained Equations (MICE)** with ***logistic and polytomous logistic regression methods*** for dichotomous and multiclass categorical variables respectively.
+There are a number of different methods to handle missing data. Since the attributes with missing values are dichotomous and also categorical with more than two factors, we will use **Multivariate Imputation by Chained Equations (MICE)** with ***logistic*** and ***polytomous logistic regression methods*** for dichotomous and multiclass categorical variables respectively.
 
 
 
@@ -21,7 +21,7 @@ There are a number of different methods to handle missing data. Since the attrib
 # Exploratory Data Analysis
 
 ## Plots:
-Following plots are generated between different pairs of variables for an extensive EDA.
+Numerous plots are generated between different pairs of variables for an extensive EDA.
 
 ![plot1](https://user-images.githubusercontent.com/16735822/38424887-11f487d8-39d0-11e8-8174-be52296c0292.png)
 ![plot2](https://user-images.githubusercontent.com/16735822/38424890-12460f68-39d0-11e8-9c27-2c8fe84886ae.png)
@@ -31,6 +31,8 @@ Following plots are generated between different pairs of variables for an extens
 ![plot5](https://user-images.githubusercontent.com/16735822/38424895-139f9ed8-39d0-11e8-871b-c4c977fc947c.png)
 
 ## Inferences:
+
+Following are some of the inferences obtained through the above plots and EDA:
 
 * 	75% of the clients are **younger** than 47 years old.
 
@@ -65,7 +67,7 @@ Following plots are generated between different pairs of variables for an extens
 * 	Clients for who the previous campaign was successful are **more likely** to subscribe for a term deposit.
 
 ### Note
-Complete **R Code** for the above Data Cleaning, Imputation and EDA is provided in this folder.
+Complete [**R Code**](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/blob/master/analysis/analysis.R) for the above Data Cleaning, Imputation and EDA is provided in this folder.
 
 
 
