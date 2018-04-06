@@ -1,4 +1,4 @@
-#Complete R Scirpt < author: Ajay Gautam M>
+#Complete R Scirpt   < author: Ajay Gautam M >
 
 #Setting the working directory
 getwd()
