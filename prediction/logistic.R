@@ -2,6 +2,8 @@
 
 #LOGISTIC REGRESSION
 
+set.seed(123)
+
 #Model Execution
 logit_model <- glm(y ~.,family=binomial(link = "logit"),data = new_train)
 
