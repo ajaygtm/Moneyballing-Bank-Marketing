@@ -18,11 +18,11 @@ A major problem associated with the given dataset is that it is *imbalanced.* So
 
 ## Algorithms Used
 
-Four different algorithms to predict the term deposit subscription.
-1.	Linear algorithm: Logistic Regression (GLM)
-2. 	Non-Linear algorithm: Support Vector Machine (SVM)
-3. 	Bagging algorithm: Random Forest (RF)
-4. 	Boosting algorithm: eXtreme Gradient Boosting (XGBoost)
+Four different algorithms are to predict the term deposit subscription.
+1.	**Linear algorithm:** Logistic Regression (GLM)
+2. 	**Non-Linear algorithm:** Support Vector Machine (SVM)
+3. 	**Bagging algorithm:** Random Forest (RF)
+4. 	**Boosting algorithm:** eXtreme Gradient Boosting (XGBoost)
 
 ## Model Comparision 
 
