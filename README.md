@@ -26,6 +26,8 @@ Four different algorithms are to predict the term deposit subscription.
 
 ## Model Comparision 
 
+Since, the test accuracy cannot be used as a sole indicator of the model performance in case of imbalanced dataset, metrics like **AUC**, **F1-Score** and **Confusion Matrix** are used for comparing the models prediction efficiency.
+
 Table             | Logistic | RF | SVM | XGBoost
 -----------       | -----    |----| ----| ------- 
 **AUC**           | 0.7031   | 0.7108| 0.6978| 0.7115
