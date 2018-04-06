@@ -37,7 +37,8 @@ Four different algorithms are used to predict the term deposit subscription.
 
 ## Result
 
-The prediction on the test data using the **Random Forest algorithm** is stored in the **result.csv** file. It is avaiable in the data folder.
+The prediction on the test data using the **Random Forest algorithm** is stored in the **result.csv** file.
+
 
 ### Note
 **R Code** for each step is provided separately in the respective folders along with the README file and also, [**complete R Script**](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/blob/master/complete_code.R) for this whole project is also provided for convenience.
