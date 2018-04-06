@@ -38,7 +38,7 @@ It can be seen that **Random Forest** and **XGBoost**  are the best performing a
 
 
 ### Note:
-Extensicve **R Code** for each model is provided separately in this folder. 
+Complete **R Code** for each model is provided separately in this folder. 
 
 
 
