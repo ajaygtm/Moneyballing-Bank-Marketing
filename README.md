@@ -15,9 +15,10 @@ Further details about the dataset is provided in the README file in the [data fo
 
 ## Feature Engineering
 
-**Feature Selection** is done to select the best variables for prediction. 
-A major problem associated with the given dataset is that it is *imbalanced.* So, **SMOTE** - a Synthetic Data Generation sampling method is used to overcome this problem. 
-[Feature Engineering folder](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/feature%20engineering) contains the respective code.
+  **Feature Selection** is done to select the best variables for prediction. 
+
+  A major problem associated with the given dataset is that it is *imbalanced.* So, **SMOTE** - a Synthetic Data Generation sampling method is used to overcome this problem. 
+  [Feature Engineering folder](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/feature%20engineering) contains the respective code.
 
 
 ## Algorithms Used
@@ -28,10 +29,10 @@ Four different algorithms are used to predict the term deposit subscription.
 3. 	**Bagging algorithm:** Random Forest (RF)
 4. 	**Boosting algorithm:** eXtreme Gradient Boosting (XGBoost)
 
-The algorithms were assessed using test accuracy, AUC and F1 Score. 
-**Random forest** performed the best among the four algorithms with **87.41% test accuracy, 71.08% AUC and 0.4723 F1 Score**
+  The algorithms were assessed using test accuracy, AUC and F1 Score. 
+  **Random forest** performed the best among the four algorithms with **87.41% test accuracy, 71.08% AUC and 0.4723 F1 Score**
 
-R codes for the implementation of all the boave algorithms and the prediction are provided in the [prediction folder.](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/prediction)
+  R codes for the implementation of all the boave algorithms and the prediction are provided in the [prediction folder.](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/prediction)
 
 
 ## Result
