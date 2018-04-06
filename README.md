@@ -9,7 +9,8 @@ Further details about the dataset is provided in the README file in the data fol
 
 # Analysis
 
-Data Cleaning, Imputation and Exploratory data analysis are done
+**Data Cleaning** and an extensive **Exploratory Data Analysis** is done on the dataset. The plots and the inferences can be found in the analysis folder.
 
-# Methodology
+# Feature Engineering
 
+**Feature Selection** is done to select the best variables for prediction. A major problem associated with the given dataset is that it is *imbalanced.* So, **SMOTE** - a Synthetic Data Generation sampling method is used to overcome this problem. 
