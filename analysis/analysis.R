@@ -1,4 +1,4 @@
-#analysis - R Script  <author : Ajay Gautam M>
+#Analysis - R Code  <author : Ajay Gautam M>
 
 #Initial look at the data
 names(train)
