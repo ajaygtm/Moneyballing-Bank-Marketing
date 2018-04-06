@@ -24,13 +24,12 @@ Four different algorithms are used to predict the term deposit subscription.
 3. 	**Bagging algorithm:** Random Forest (RF)
 4. 	**Boosting algorithm:** eXtreme Gradient Boosting (XGBoost)
 
-## Algorithm Selected
-
-The algorithms were assessed using test accuracy, AUC and F1 Score.  **Random forest** performed the best among the four algorithms considered with **87.41% test accuracy, 71.08% AUC and 0.4723 F1 Score**
+The algorithms were assessed using test accuracy, AUC and F1 Score. 
+**Random forest** performed the best among the four algorithms considered with **87.41% test accuracy, 71.08% AUC and 0.4723 F1 Score**
 
 ## Result
 
-The prediction result on the test data is stored in the **result.csv** file. It is avaiable in the data folder.
+The prediction result on the test data using the **Random Forest algorithm** is stored in the **result.csv** file. It is avaiable in the data folder.
 
 
 
