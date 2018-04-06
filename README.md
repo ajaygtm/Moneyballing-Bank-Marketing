@@ -6,7 +6,7 @@
 
 ## Data Source
 
-The data used for this project are publicly available on UCI Machine Learning repository - [Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing).
+The data used for this project are publicly available on UCI Machine Learning repository - [**Bank Marketing Dataset**](https://archive.ics.uci.edu/ml/datasets/bank+marketing).
 Further details about the dataset is provided in the README file in the [data folder.](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/data)
 
 ## Analysis
@@ -15,10 +15,9 @@ Further details about the dataset is provided in the README file in the [data fo
 
 ## Feature Engineering
 
-  **Feature Selection** is done to select the best variables for prediction. 
-
-  A major problem associated with the given dataset is that it is *imbalanced.* So, **SMOTE** - a Synthetic Data Generation sampling method is used to overcome this problem. 
-  [Feature Engineering folder](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/feature%20engineering) contains the respective code and explanation.
+  **Feature Selection** is done to select the best variables for prediction.A major problem associated with the given dataset is that it is ***imbalanced.*** So, **SMOTE** - a Synthetic Data Generation sampling method is used to overcome this problem. 
+   
+   [Feature Engineering folder](https://github.com/MAJgautam/Moneyballing-Bank-Marketing/tree/master/feature%20engineering) contains the respective code and explanation.
 
 
 ## Algorithms Used
