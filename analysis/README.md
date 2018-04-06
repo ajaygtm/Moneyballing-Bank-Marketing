@@ -15,6 +15,9 @@ In the training dataset, there are 19.5% missing values in default, 4% missing v
 There are a number of different methods to handle missing data. Since the attributes with missing values are dichotomous and also categorical with more than two factors, we will use **Multivariate Imputation by Chained Equations (MICE)** with ***logistic and polytomous logistic regression methods*** for dichotomous and multiclass categorical variables respectively.
 
 
+
+
+
 # Exploratory Data Analysis
 
 ## Plots:
