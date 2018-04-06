@@ -41,7 +41,7 @@ This method aims to modify an *imbalanced data into balanced distribution* using
 
 #### Cost Sensitive Learning:
 
-This deals with the cost associated with misclassifying observations. We are concerned about **false positives** and **false negatives.** There is no cost penalty associated with True Positive and True Negatives since they are correctly identified. In our case, we are giving **more penalty to the False Negative than the False Positive.** The reason is, the bank can’t afford to lose a customer who is willing to subscribe to term deposit. ***Losing a sure customer*** will be a severe problem to the marketing campaign. But the bank can afford some false positives, since the money and work associated with those false positives is not a serious problem to them comparitively.
+This deals with the cost associated with misclassifying observations. We are concerned about **false positives** and **false negatives.** There is no cost penalty associated with True Positive and True Negatives since they are correctly identified. In our case, we are giving **more penalty to the False Negative than the False Positive.** The reason is, the bank can’t afford to lose a customer who is willing to subscribe to term deposit. ***Losing a sure customer is a severe problem*** to the marketing campaign. But ***the bank can afford some false positives***, since the money and work associated with those false positives is not a serious problem to them comparitively.
 
 
 
