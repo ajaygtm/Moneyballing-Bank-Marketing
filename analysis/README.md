@@ -12,11 +12,12 @@ In the training dataset, there are 19.5% missing values in default, 4% missing v
 
 ## Imputation
 
-There are a number of different methods to handle missing data. Since the attributes with missing values are dichotomous and also categorical with more than two factors, we will use **Multivariate Imputation by Chained Equations (MICE)** with *logistic and polytomous logistic regression methods* for dichotomous and multiclass categorical variables respectively.
+There are a number of different methods to handle missing data. Since the attributes with missing values are dichotomous and also categorical with more than two factors, we will use **Multivariate Imputation by Chained Equations (MICE)** with ***logistic and polytomous logistic regression methods*** for dichotomous and multiclass categorical variables respectively.
 
 
 # Exploratory Data Analysis
 
+## Plots:
 Following plots are generated between different pairs of variables for an extensive EDA.
 
 ![plot1](https://user-images.githubusercontent.com/16735822/38424887-11f487d8-39d0-11e8-8174-be52296c0292.png)
@@ -60,7 +61,8 @@ Following plots are generated between different pairs of variables for an extens
 
 * 	Clients for who the previous campaign was successful are **more likely** to subscribe for a term deposit.
 
-
+### Note
+Complete **R Code** for the above Data Cleaning, Imputation and EDA is provided in this folder.
 
 
 
